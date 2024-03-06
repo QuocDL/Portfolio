@@ -1,6 +1,6 @@
 import "./app.scss"
 import Contact from "./components/contact/Contact";
-import Cursor from "./components/cursor/cursor";
+import Cursor from "./components/cursor/Cursor_app";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/navbar.";
 import Parallax from "./components/parallax/Parallax";
@@ -9,7 +9,7 @@ import Services from "./components/services/Services";
 
 const App = () => {
   return <div>
-        <Cursor/>
+    <Cursor/>
     <section id="Trang chủ">
       <Navbar/>
       <Hero/>
